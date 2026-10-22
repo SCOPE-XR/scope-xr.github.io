@@ -80,8 +80,8 @@
   .inst li a{color:var(--text)} .inst li a:hover{color:var(--accent-2)}
   section.logos{padding:26px 0;background:#fff;border-bottom:1px solid #e3e7ee}
   .logorow{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:22px 34px}
-  .logorow img{height:44px;width:auto;display:block} .logorow .l-nsf{height:64px} .logorow .l-uw{height:58px} .logorow .l-eri{height:52px}
-  @media (max-width:720px){.logorow{justify-content:center}.logorow img{height:34px}.logorow .l-nsf{height:50px}.logorow .l-uw{height:46px}.logorow .l-eri{height:40px}}
+  .logorow img{height:44px;width:auto;max-width:130px;object-fit:contain;display:block} .logorow .l-nsf{height:64px} .logorow .l-uw{height:58px} .logorow .l-eri{height:52px} .logorow .l-oai{height:48px;max-width:142px}
+  @media (max-width:720px){.logorow{justify-content:center}.logorow img{height:34px}.logorow .l-nsf{height:50px}.logorow .l-uw{height:46px}.logorow .l-eri{height:40px}.logorow .l-oai{height:38px;max-width:120px}}
   .note{color:var(--muted);font-size:.92rem;margin-top:18px}
   footer{padding:40px 0;border-top:1px solid var(--border);font-size:.88rem;color:var(--muted)}
   .ack{max-width:820px}
@@ -123,6 +123,7 @@
       <a href="https://www.vt.edu" title="Virginia Tech"><img src="assets/logos/virginia-tech.svg" alt="Virginia Tech"></a>
       <a href="https://www.wisc.edu" title="University of Wisconsin–Madison"><img src="assets/logos/uw-madison.png" alt="University of Wisconsin–Madison" class="l-uw"></a>
       <a href="https://www.ericsson.com" title="Ericsson"><img src="assets/logos/ericsson.svg" alt="Ericsson" class="l-eri"></a>
+      <a href="https://openairinterface.org/" title="OpenAirInterface"><img src="assets/logos/openairinterface.png" alt="OpenAirInterface" class="l-oai"></a>
     </div>
   </div>
 </section>
@@ -160,7 +161,7 @@
 <section id="team" class="alt">
   <div class="wrap">
     <h2>Team</h2>
-    <p class="lead">Five organizations spanning NextG wireless, XR systems, and large-scale testbeds.</p>
+    <p class="lead">Six organizations spanning NextG wireless, XR systems, and large-scale testbeds.</p>
     <div class="grid g3 sites">
       <div class="card inst">
         <div class="num">UNIVERSITY OF GEORGIA · LEAD</div>
@@ -186,6 +187,7 @@
           <li><span class="ph" data-i="LL"><img src="assets/people/lingjia-liu.jpg" alt="Lingjia Liu" loading="lazy" onerror="this.remove()"></span><span><a href="https://lingjialiu.ece.vt.edu/" target="_blank" rel="noopener">Lingjia Liu</a></span></li>
           <li><span class="ph" data-i="HD"><img src="assets/people/harpreet-s-dhillon.jpg" alt="Harpreet S. Dhillon" loading="lazy" onerror="this.remove()"></span><span><a href="https://ece.vt.edu/people/profile/dhillon.html" target="_blank" rel="noopener">Harpreet S. Dhillon</a></span></li>
           <li><span class="ph" data-i="BJ"><img src="assets/people/bo-ji.jpg" alt="Bo Ji" loading="lazy" onerror="this.remove()"></span><span><a href="https://hci.icat.vt.edu/research-directory/people/bo-ji.html" target="_blank" rel="noopener">Bo Ji</a></span></li>
+          <li><span class="ph" data-i="AD"><img src="assets/people/aloizio-da-silva.jpg" alt="Dr. Aloizio Da Silva" loading="lazy" onerror="this.remove()"></span><span><a href="https://www.linkedin.com/in/aloizio/" target="_blank" rel="noopener">Dr. Aloizio Da Silva</a></span></li>
         </ul>
       </div>
       <div class="card inst">
@@ -201,6 +203,12 @@
         <ul>
           <li><span class="ph" data-i="MC"><img src="assets/people/md-moin-uddin-chowdhury.jpg" alt="Md Moin Uddin Chowdhury" loading="lazy" onerror="this.remove()"></span><span><a href="https://www.linkedin.com/in/moinchowdhury1/" target="_blank" rel="noopener">Md Moin Uddin Chowdhury</a></span></li>
           <li><span class="ph" data-i="PK"><img src="assets/people/per-karlsson.jpg" alt="Per Karlsson" loading="lazy" onerror="this.remove()"></span><span><a href="https://www.linkedin.com/in/pelleka/" target="_blank" rel="noopener">Per Karlsson</a></span></li>
+        </ul>
+      </div>
+      <div class="card inst">
+        <div class="num">OPENAIRINTERFACE</div>
+        <ul>
+          <li><span class="ph" data-i="IG"><img src="assets/people/irfan-ghauri.jpg" alt="Irfan Ghauri" loading="lazy" onerror="this.remove()"></span><span><a href="https://www.linkedin.com/in/irfan-ghauri-51001b2/" target="_blank" rel="noopener">Irfan Ghauri</a></span></li>
         </ul>
       </div>
     </div>
