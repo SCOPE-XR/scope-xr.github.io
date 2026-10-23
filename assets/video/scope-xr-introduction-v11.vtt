@@ -1,0 +1,150 @@
+WEBVTT
+
+1
+00:00:03.000 --> 00:00:07.331
+Hello, we're the SCOPE-XR team, part of NSF
+VINES Track 2.
+
+2
+00:00:07.581 --> 00:00:16.878
+Our team brings together the University of
+Georgia, UT Austin, Virginia Tech, UW–Madison,
+Ericsson, and OpenAirInterface.
+
+3
+00:00:17.128 --> 00:00:24.051
+We're using what extended reality headsets see
+to help wireless networks keep people
+connected as they move.
+
+4
+00:00:24.851 --> 00:00:30.415
+In a wireless networking lesson, students
+could use XR to see the signals around them.
+
+5
+00:00:30.665 --> 00:00:37.101
+They could explore how signals travel through
+a room, reflect off walls, and leave gaps in
+coverage.
+
+6
+00:00:37.351 --> 00:00:43.074
+For industrial safety training, the connection
+needs to hold as people move around equipment.
+
+7
+00:00:43.324 --> 00:00:49.891
+As someone moves behind an obstacle, the
+network could switch to a reflected path to
+keep them connected.
+
+8
+00:00:50.141 --> 00:00:56.176
+Both examples point to the same need:
+understanding the room and keeping each
+headset connected.
+
+9
+00:00:56.976 --> 00:01:00.334
+SCOPE-XR brings that understanding into the
+network.
+
+10
+00:01:00.584 --> 00:01:05.517
+We start by combining the headset's view of
+the room with a few radio measurements.
+
+11
+00:01:05.767 --> 00:01:11.877
+That gives us a model of how signals travel,
+including where connections may become
+unreliable.
+
+12
+00:01:12.127 --> 00:01:18.094
+We also consider what people are doing and
+where they're looking, so the right content
+gets priority.
+
+13
+00:01:18.344 --> 00:01:24.469
+Together, these inputs help the network choose
+signal paths and decide how to share its
+capacity.
+
+14
+00:01:24.719 --> 00:01:29.808
+The headset, the network, and the application
+can then respond to changes together.
+
+15
+00:01:30.058 --> 00:01:34.152
+We'll connect these capabilities through
+O-RAN's open architecture.
+
+16
+00:01:34.402 --> 00:01:39.554
+Our network control will run as xApps for
+beams, scheduling, and handovers.
+
+17
+00:01:39.803 --> 00:01:45.495
+For longer-term optimization, rApps will
+connect with Ericsson's automation platform.
+
+18
+00:01:45.745 --> 00:01:50.497
+Standard interfaces will link our software to
+commercial radio equipment.
+
+19
+00:01:51.297 --> 00:01:57.189
+We'll begin with testbeds at UGA and Virginia
+Tech, using commercial radio equipment.
+
+20
+00:01:57.439 --> 00:02:03.051
+We'll test what happens when people move,
+cross paths, or block one another's signals.
+
+21
+00:02:03.301 --> 00:02:07.776
+Then we'll bring the pieces together on
+Virginia Tech's larger testbed.
+
+22
+00:02:08.026 --> 00:02:16.453
+The planned demonstrations will involve
+several people sharing XR experiences across
+rooms and indoor and outdoor spaces.
+
+23
+00:02:16.703 --> 00:02:23.456
+For both learning and industrial safety, we'll
+measure how responsive and reliable the
+experience is,
+
+24
+00:02:23.706 --> 00:02:26.104
+and how much computing it takes to support it.
+
+25
+00:02:26.904 --> 00:02:32.481
+We'll share software, datasets, and evaluation
+tools so others can build on the work.
+
+26
+00:02:32.731 --> 00:02:40.194
+With Ericsson and OpenAirInterface, we'll work
+toward reusable components that can be adopted
+beyond our testbeds.
+
+27
+00:02:40.444 --> 00:02:43.457
+We welcome collaboration with other VINES
+teams.
+
+28
+00:02:43.707 --> 00:02:47.047
+Learn more at scope-xr.github.io. Thank you.
